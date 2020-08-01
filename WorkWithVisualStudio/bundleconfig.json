@@ -1,0 +1,10 @@
+[
+  {
+    "outputFileName": "wwwroot/css/second.min.css",
+    "inputFiles": [
+      "wwwroot/css/second.css"
+    ],
+    "sourceMap": false,
+    "sourceMapRootPath": null
+  }
+]
