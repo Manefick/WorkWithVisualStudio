@@ -3,8 +3,20 @@
     "outputFileName": "wwwroot/css/second.min.css",
     "inputFiles": [
       "wwwroot/css/second.css"
-    ],
-    "sourceMap": false,
-    "sourceMapRootPath": null
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/bundle.css",
+    "inputFiles": [
+      "wwwroot/css/second.css",
+      "wwwroot/css/first.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/bundle.js",
+    "inputFiles": [
+      "wwwroot/js/fourth.js",
+      "wwwroot/js/third.js"
+    ]
   }
 ]
