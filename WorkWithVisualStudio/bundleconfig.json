@@ -1,22 +1,50 @@
 [
   {
-    "outputFileName": "wwwroot/css/second.min.css",
+    "outputFileName": "wwwroot/css/bootstrap.css",
     "inputFiles": [
-      "wwwroot/css/second.css"
+      "node_modules/bootstrap/dist/css/bootstrap.css"
     ]
   },
   {
-    "outputFileName": "wwwroot/css/bundle.css",
+    "outputFileName": "wwwroot/css/bootstrap.min.css",
     "inputFiles": [
-      "wwwroot/css/second.css",
-      "wwwroot/css/first.css"
+      "node_modules/bootstrap/dist/css/bootstrap.min.css"
     ]
   },
   {
-    "outputFileName": "wwwroot/js/bundle.js",
+    "outputFileName": "wwwroot/js/bootstrap.js",
     "inputFiles": [
-      "wwwroot/js/fourth.js",
-      "wwwroot/js/third.js"
+      "node_modules/bootstrap/dist/js/bootstrap.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/bootstrap.min.js",
+    "inputFiles": [
+      "node_modules/bootstrap/dist/js/bootstrap.min.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/jquery.js",
+    "inputFiles": [
+      "node_modules/jquery/dist/jquery.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/jquery.min.js",
+    "inputFiles": [
+      "node_modules/jquery/dist/jquery.min.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/jquery.validate.js",
+    "inputFiles": [
+      "node_modules/jquery-validation/dist/jquery.validate.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/jquery.validate.min.js",
+    "inputFiles": [
+      "node_modules/jquery-validation/dist/jquery.validate.min.js"
     ]
   }
 ]

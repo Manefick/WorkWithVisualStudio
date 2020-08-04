@@ -9,9 +9,18 @@ namespace WorkWithVisualStudio.Controllers
 {
     public class HomeController : Controller
     {
+        SimpleRepository Repository = SimpleRepository.SharedRepository;
         public IActionResult Index()
         {
-            return View(SimpleRepository.SharedRepository.Products.Where(x=>x.Price<40));
+            return View(Repository.Products.Where(x=>x.Price<50));
+        }
+        [HttpGet]
+        public IActionResult AddProduct() => View(new Product());
+        [HttpPost]
+        public IActionResult AddProduct(Product p)
+        {
+            Repository.AddProduct(p);
+            return RedirectToAction("Index");
         }
     }
 }

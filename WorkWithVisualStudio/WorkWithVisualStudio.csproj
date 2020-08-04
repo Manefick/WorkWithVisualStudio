@@ -6,10 +6,16 @@
 
   <ItemGroup>
     <Content Remove="bundleconfig.json" />
+    <Content Remove="wwwroot\js\jquery.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\jquery.js" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="bundleconfig.json" />
+    <None Include="wwwroot\js\jquery.js" />
   </ItemGroup>
 
   <ItemGroup>
